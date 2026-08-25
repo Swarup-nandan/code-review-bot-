@@ -113,7 +113,6 @@ tests/
 ```
 
 ## Extending it
-
 - **More languages:** `bandit_check.py` is Python-only; add an equivalent
   wrapper for `semgrep --config=auto` (language-agnostic) alongside it.
 - **PR status checks:** post a commit status (`POST /repos/{repo}/statuses/{sha}`)
