@@ -18,6 +18,5 @@ class Settings:
     # Cap how much diff we send to the LLM per file, to control cost/latency.
     max_diff_chars_per_file: int = int(os.environ.get("MAX_DIFF_CHARS_PER_FILE", "6000"))
     max_files_per_pr: int = int(os.environ.get("MAX_FILES_PER_PR", "25"))
-
-
+    
 settings = Settings()
